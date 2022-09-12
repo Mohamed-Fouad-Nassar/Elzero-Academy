@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is Elzero Web Scool Website Test">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elzero Web School</title>
+    <!-- classes file -->
+    <link rel="stylesheet" href="CSS Files/Classes.CSS">
+    <!-- main css file -->
+    <link rel="stylesheet" href="CSS Files/Master.CSS">
+    <!-- normalize css files -->
+    <link rel="stylesheet" href="CSS Files/Normalize.Css">
+    <!-- fontawesome css file -->
+    <link rel="stylesheet" href="CSS Files/all.min.css">
+    <!-- google fonts -->
+    <!-- cairo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- ionicons js files -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- Start Nav -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <img src="Data/logo.png" alt="logo-image">
+                </a>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span>تعلم الان</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>مسارات التعلم</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>خطط الدراسه</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>منوعات</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- Start Main:- -->
+    <main>
+        <!-- Start intro:- -->
+        <div class="intro">
+            <div class="container flex-center">
+                <h1>مرحبا بكم في أكاديمية الزيرو</h1>
+                <p>أكاديمية الزيرو هي منصة تعليمية تقوم على تقديم العديد من مسارات تطوير الويب بشرح تفصيلي تفاعلي باللغة العربية، وخطط دراسة مع اختبارات لضمان فهم الكود والتطبيق عليه.</p>
+                <div class="search">
+                    <input type="search" placeholder="البحث فى الاكاديميه">
+                    <input type="button" value="البحث">
+                </div>
+            </div>
+        </div>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230">
+                <path fill="#0075ff" fill-opacity="1" d="M0,160L80,176C160,192,320,224,480,202.7C640,181,800,107,960,101.3C1120,96,1280,160,1360,192L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+            </svg>
+        </div>
+        <!-- End intro -->
+        <!-- Start Edu Tracks:- -->
+        <div class="edu-tracks">
+            <div class="container">
+                <div class="head">
+                    <h1>المسارات التعليميه</h1>
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="content">
+                    <div>
+                        <img class="w-100p" src="https://elzero.org/wp-content/themes/elzero/imgs/home-tracks/frontend-track.svg" alt="">
+                        <a class="link" href="">مسار Front-End Developer </a>
+                    </div>
+                    <div>
+                        <img class="w-100p" src="https://elzero.org/wp-content/themes/elzero/imgs/home-tracks/javascript-track.svg" alt="">
+                        <a class="link" href="">مسار ال Full Stack Developer </a>
+                    </div>
+                    <div>
+                        <img class="w-100p" src="https://elzero.org/wp-content/themes/elzero/imgs/home-tracks/python-track.svg" alt="">
+                        <a class="link" href="">مسار Python Web Developer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Edu Tracks -->
+        <!-- Start Second Background Color :- -->
+        <div class="sec-back-ground">
+            <!-- Start Applications:- -->
+            <div class="applications">
+                <div class="container">
+                    <div class="head">
+                        <h1>آخر تطبيقات Front-End</h1>
+                        <div class="icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <img src="Data/create-quiz-app-e1658320412863.png" alt="">
+                            <a class="link" href="">Create Quiz Application</a>
+                        </div>
+                        <div>
+                            <img src="Data/fetch-repos-e1656956040858.png" alt="">
+                            <a class="link" href="">Fetch Github Repositories</a>
+                        </div>
+                        <div>
+                            <img src="Data/image-slider-e1655928643149.png" alt="">
+                            <a class="link" href="">Create Slider</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Applications -->
+            <!-- Start Articles:- -->
+            <div class="articles">
+                <div class="container">
+                    <div class="head">
+                        <h1>آخر المقالات المضافة</h1>
+                        <div class="icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <img src="Data/Article.png" alt="">
+                            <a class="link" href="">الإستضافة والسيرفرات</a>
+                            <p>بعد الإنتهاء من البرمجة أو التصميم فأنت تحتاج لرفع موقعك للإنترنت حتى يراه الناس وتبدأ التعامل معه </p>
+                        </div>
+                        <div>
+                            <img src="Data/text-editors-vs-ides.png" alt="">
+                            <a class="link" href="">الفرق بين Text-Editor و IDE</a>
+                            <p>ال Text Editor هو برنامج بسيط يقوم بعمل المطلوب بدون اي تعقيدات</p>
+                        </div>
+                        <div>
+                            <img src="Data/what-is-programming-article.png" alt="">
+                            <a class="link" href="">يعني ايه برمجة ولغة برمجة وكود ؟</a>
+                            <p>البرمجة هي مجموعة التعليمات "Instructions" التي تعطيها للكمبيوتر لتنفيذ مهمة معينة أو فكرة برمجية </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Articles -->
+            <div class="container">
+                <hr>
+            </div>
+            <!-- Start Random Articles:- -->
+            <div class="random-articles">
+                <div class="container">
+                    <div class="head">
+                        <h1>مقالات عشوائية</h1>
+                        <div class="icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <img src="Data/learn-python.png" alt="">
+                            <a class="link" href="">كيف تدرس لغة Python بشكل صحيح وفعال وتحترف اللغة</a>
+                            <p>كيف تدرس لغة Python بشكل صحيح وفعال وتحترف اللغة</p>
+                        </div>
+                        <div>
+                            <img src="Data/cover-full-stack.png" alt="">
+                            <a class="link" href="">ما معنى Full Stack Developer</a>
+                            <p>المعنى الحرفي لكلمة Stack هو كومة من الأشياء والمقصود هنا انك ستحمل مسؤولية كل شيء في المشروع.</p>
+                        </div>
+                        <div>
+                            <img src="Data/javascript-shorthands.png" alt="">
+                            <a class="link" href="">بعض ال Shorthand’s لتسريع مهامك في ال JavaScript</a>
+                            <p>بعض ال Shorthand's لتسريع مهامك في ال JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Random Articles -->
+            <div class="news">
+                <div class="container">
+                    <div class="head">
+                        <h1>ما الجديد</h1>
+                        <div class="icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <a class="link" href="">تعديلات على تكليفات وتصميم قسم ال SASS</a>
+                            <p>تم تغيير التصميم الخاص بالتكليفات و إظهار بعض المعلومات الجديدة</p>
+                        </div>
+                        <div>
+                            <a class="link" href="">إضافة آخر الشروحات للرئيسة</a>
+                            <p>تم إضافة جزء جديد مكان مميزات الأكاديمية الموجود في الصفحة الرئيسة</p>
+                        </div>
+                        <div>
+                            <a class="link" href="">تعديل على قوائم ال Problems Solving</a>
+                            <p>تم عمل بعض التعديلات على كل ما يخص قوائم وأقسام ال Problems Solving</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Second Background Color -->
+        <!-- Start Last Lessons:- -->
+        <div class="last-lessons">
+            <div class="container">
+                <div class="head">
+                    <h1>آخر الشروحات المكتوبة</h1>
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="wp">
+                        <a class="link" href="">إخفاء رسالة التحديث داخل لوحة التحكم للمستخدمين فقط</a>
+                        <span>Wordpress</span>
+                    </div>
+                    <div class="py">
+                        <a class="link" href="">جلب ال ASCII Code من ال Characters والعكس</a>
+                        <span>Python</span>
+                    </div>
+                    <div class="php">
+                        <a class="link" href="">جلب ال ASCII Code من ال Characters والعكس</a>
+                        <span>PHP</span>
+                    </div>
+                    <div class="php">
+                        <a class="link" href="">حساب عدد السطور داخل الملف بأكثر من طريقة</a>
+                        <span>PHP</span>
+                    </div>
+                    <div class="php">
+                        <a class="link" href="">جلب إسم الملف الحالي مع الإمتداد بأكثر من طريقة</a>
+                        <span>PHP</span>
+                    </div>
+                    <div class="js">
+                        <a class="link" href="">جلب ال ASCII Code من ال Characters والعكس</a>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="js">
+                        <a class="link" href="">تأكد أن عناصر ال Array كلها نفس العنصر أم لا</a>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="php">
+                        <a class="link" href="">تحويل حروف جميع عناصر ال Array لحروف كبيرة</a>
+                        <span>PHP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Last Lessons -->
+        <!-- Start Random Questions:- -->
+        <div class="random-q sec-back-ground">
+            <div class="container">
+                <div class="content">
+                    <div class="right">
+                        <img src="https://elzero.org/wp-content/themes/elzero/imgs/questions.svg" alt="">
+                    </div>
+                    <div class="left">
+                        <div class="head">
+                            <h1>أسئلة عشوائية منوعة</h1>
+                            <div class="icon">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <ul>
+                                <li>
+                                    <a class="link" href="">كيف تنظر الشركة لمعرض أعمالي ؟ </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="">ما معنى Higher Order Function </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="">أين أجد مراجع لكل ما يخص لغة Javascript ؟ </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="">إزاي أتعامل مع موقع Linkedin ? </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="">أين أجد مراجع لكل ما يخص لغة PHP ؟ </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Random Questions -->
+    </main>
+    <!-- End Main -->
+    <!-- Start Top Botton:- -->
+    <div class="top">
+        <a href="#">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
+    <!-- End Top Botton -->
+    <!-- Start ADs:- -->
+    <div class="ads">
+        <div class="container">
+            <div class="ads-head flex-center">
+                <h1>إعلانات</h1>
+                <h3>إعلانات خاصة بشركة جوجل</h3>
+            </div>
+            <div class="ads-cont">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- End ADs -->
+    <!-- Start Footer:- -->
+    <footer>
+        <div class="container">
+            <div class="left-p">
+                <p>
+                    Redesign with <i class="fa-solid fa-heart"></i> by Mohamed Nassar &copy; 2022
+                </p>
+            </div>
+            <div class="right-social">
+                <div>
+                    <a href="https://www.youtube.com/">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://twitter.com/">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://codepen.io/">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:naa@sa.na">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+</body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------
+/* Start General Styling:- */
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.head .icon {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head .icon span {
+    background-color: #c6c6c6;
+    height: 4px;
+}
+
+.head .icon span:first-child {
+    width: 50%;
+}
+
+.head .icon span:last-child {
+    width: 100%;
+}
+
+.head h1 {
+    text-align: start;
+    font-weight: bold;
+    color: var(--head-color, #333);
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.link {
+    color: var(--main-color, #0075ff);
+    font-weight: bold;
+    font-size: large;
+    padding: var(--element-padding, 20px);
+}
+
+.link:hover {
+    color: var(--main-hover-color, #4584b6);
+}
+
+.container .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: var(--sec-margin, 40px);
+}
+
+.container .content>div {
+    background-color: var(--main-background-color, #f8f6f6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .content>div img {
+    width: 100%;
+}
+
+.container .content>div p {
+    margin-top: 0;
+}
+
+.w-100p {
+    padding-top: var(--element-padding, 20px);
+    width: 150px !important;
+}
+
+hr {
+    opacity: 0.1;
+    margin: 40px 0;
+}
+
+
+/* E-small */
+
+@media (max-width: 575) {
+    .container {
+        padding: 0 10px;
+        width: 100%;
+    }
+}
+
+
+/* small */
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+
+/* medium */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* large */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/* x-large */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* xx-large */
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+
+/* End General Styling */
+
+
+/* Start Variables:- */
+
+:root {
+    --element-padding: 20px;
+    --main-color: #0075ff;
+    --head-color: #333;
+    --sec-up-down-padding: 60px;
+    --main-background-color: #f8f6f6;
+    --main-hover-color: #4584b6;
+    --sec-margin: 40px;
+    --php-color: #4f5b93;
+    --wp-color: #464646;
+    --py-color: #4584b6;
+    --js-color: #f7df1e;
+}
+
+
+/* End Variables */
+
+
+/* Start Nav Styling:- */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.507);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul li:not(li:first-child) {
+    padding-right: 15px;
+}
+
+nav ul li span {
+    margin-left: 2px;
+}
+
+nav .logo {
+    display: none;
+}
+
+nav .container {
+    padding: var(--element-padding, 20px) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    nav .logo {
+        display: initial;
+    }
+    nav .container {
+        justify-content: space-between;
+    }
+}
+
+
+/* End Nav Styling */
+
+
+/* Start Main Styling:- */
+
+
+/* Start intro styling:- */
+
+.intro {
+    padding: 160px 0;
+    background-color: var(--main-color, #0075ff);
+}
+
+.intro .container {
+    flex-direction: column;
+}
+
+.intro .container h1 {
+    color: white;
+    font-weight: 800;
+}
+
+.intro .container p {
+    color: white;
+    font-size: x-large;
+    line-height: 35px;
+    margin: 30px 0;
+}
+
+.intro .container .search {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.intro .container .search input[type="search"] {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    text-align: start;
+}
+
+.intro .container .search input[type="search"]::-webkit-input-placeholder {
+    color: rgb(39, 39, 39);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.intro .container .search input[type="search"]::-moz-placeholder {
+    color: rgb(39, 39, 39);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.intro .container .search input[type="search"]:-ms-input-placeholder {
+    color: rgb(39, 39, 39);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.intro .container .search input[type="search"]::-ms-input-placeholder {
+    color: rgb(39, 39, 39);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.intro .container .search input[type="search"]::placeholder {
+    color: rgb(39, 39, 39);
+    font-weight: bolder;
+    font-size: large;
+    text-align: start;
+}
+
+.intro .container .search input[type="button"] {
+    background-color: var(--main-color, #0075ff);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+
+/* End intro styling */
+
+
+/* Start Edu Tracks styling:- */
+
+.edu-tracks {
+    padding: var(--sec-up-down-padding, 60px) 0;
+}
+
+
+/* End Edu Tracks styling */
+
+
+/* Start Second Background Styling:- */
+
+.sec-back-ground {
+    background-color: var(--main-background-color, #f8f6f6);
+}
+
+.sec-back-ground .link:not(.sec-back-ground>div:first-child .link) {
+    align-self: flex-start;
+}
+
+.sec-back-ground p {
+    padding: 0 var(--element-padding, 20px) var(--element-padding, 20px);
+    text-align: start;
+    margin: 0;
+}
+
+
+/* Start Applications styling:- */
+
+.applications {
+    padding: var(--sec-up-down-padding, 60px) 0;
+}
+
+.applications .container .content>div {
+    background-color: white;
+}
+
+
+/* End Applications styling */
+
+
+/* Start Articles styling:- */
+
+.articles {
+    padding: 0;
+}
+
+.articles .container .content>div {
+    background-color: white;
+}
+
+
+/* End Articles styling */
+
+
+/* Start Random Articles styling:- */
+
+.random-articles {
+    padding: 0;
+}
+
+.random-articles .container .content>div {
+    background-color: white;
+}
+
+
+/* End Random Articles Styling */
+
+
+/* Start News Styling:- */
+
+.news {
+    padding: var(--sec-up-down-padding, 60px) 0;
+}
+
+.news .container .content>div {
+    background-color: white;
+}
+
+
+/* End News Styling */
+
+
+/* End Second Background Styling */
+
+
+/* Start Last Lessons Styling:- */
+
+.last-lessons {
+    padding: var(--sec-up-down-padding, 60px) 0;
+}
+
+.last-lessons .container .content {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+}
+
+.last-lessons .container .content div {
+    padding: 15px;
+    border: 1px solid #CCC;
+    border-right: 2px solid;
+    align-items: flex-start;
+}
+
+.last-lessons .container .content div a {
+    padding: 0 0 15px;
+    text-align: start;
+}
+
+.last-lessons .container .content span {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.last-lessons .container .content div.wp {
+    border-right-color: var(--wp-color, #464646);
+}
+
+.last-lessons .container .content div.wp span {
+    background-color: var(--wp-color, #464646);
+    color: white;
+}
+
+.last-lessons .container .content div.py {
+    border-right-color: var(--py-color, #4584b6);
+}
+
+.last-lessons .container .content div.py span {
+    background-color: var(--py-color, #4584b6);
+    color: white;
+}
+
+.last-lessons .container .content div.php {
+    border-right-color: var(--php-color, #4f5b93);
+}
+
+.last-lessons .container .content div.php span {
+    background-color: var(--php-color, #4f5b93);
+    color: white;
+}
+
+.last-lessons .container .content div.js {
+    border-right-color: var(--js-color, #f7df1e);
+}
+
+.last-lessons .container .content div.js span {
+    background-color: var(--js-color, #f7df1e);
+}
+
+
+/* End Last Lessons Styling */
+
+
+/* Start Random Questions Styling:- */
+
+.random-q .container .content {
+    padding: var(--sec-up-down-padding, 60px) 0;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.random-q .container .right img {
+    width: 350px;
+}
+
+.random-q .container .left {
+    align-items: flex-start;
+}
+
+.random-q .container .left ul {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.random-q .container .left ul li {
+    padding: var(--element-padding, 20px) 0;
+}
+
+.random-q .container .left ul li:first-child {
+    margin-top: var(--sec-margin, 40px);
+}
+
+.random-q .container .left ul li a {
+    padding: 0;
+}
+
+@media (max-width: 992px) {
+    .random-q .container .content {
+        grid-template-columns: unset;
+    }
+    .random-q .container .right {
+        display: none;
+    }
+    .random-q .container .left {
+        width: 100%;
+    }
+}
+
+
+/* End Random Questions Styling */
+
+
+/* End Main Styling */
+
+
+/* Start Top Button Styling:- */
+
+.top {
+    padding: 10px;
+    background-color: var(--main-color, #0075ff);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.top a i {
+    color: white;
+}
+
+
+/* End Top Button Styling */
+
+
+/* Start ADs Styling:- */
+
+.ads {
+    padding: var(--sec-up-down-padding, 60px) 0;
+}
+
+.ads .container {
+    flex-direction: column;
+    height: 50vh;
+}
+
+.ads .container .ads-head {
+    flex-direction: column;
+}
+
+.ads .container .ads-head h3 {
+    font-weight: normal;
+}
+
+.ads .container .ads-cont {
+    margin: var(--sec-margin, 40px) 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+/* End ADs Styling */
+
+
+/* Start Footer Styling:- */
+
+footer {
+    direction: ltr;
+    padding: var(--element-padding, 20px) 0;
+    background-color: black;
+    color: white;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+footer .container .right-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .right-social>div {
+    background-color: #2e2e2e;
+    text-align: center;
+}
+
+footer .container .right-social>div:not(.right-social>div:first-child) {
+    margin-left: 5px;
+}
+
+footer .container .right-social>div:hover i {
+    color: white;
+}
+
+footer .container .right-social>div:first-child:hover {
+    background-color: #ff0000;
+}
+
+footer .container .right-social>div:nth-child(2):hover {
+    background-color: #1877f2;
+}
+
+footer .container .right-social>div:nth-child(4):hover {
+    background-color: #1d9bf0;
+}
+
+footer .container .right-social>div:nth-child(6):hover {
+    background-color: #f60197;
+}
+
+footer .container .right-social>div:nth-child(5):hover,
+footer .container .right-social>div:nth-child(3):hover,
+footer .container .right-social>div:last-child:hover {
+    background-color: #CCC;
+}
+
+footer .container .right-social>div i {
+    padding: 5px;
+    color: #6f6f6f;
+    font-size: x-large;
+    width: 40px;
+}
+
+footer .container .left-p {
+    align-self: center;
+    padding: var(--element-padding, 20px) 0;
+}
+
+footer .container .left-p p {
+    margin: 0;
+}
+
+footer .container .left-p p i {
+    color: #0075ff;
+}
+
+
+/* End Footer Styling */
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+/* Start Classes:- */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* End Classes */
+
+--------------------------------------------------------------------------------------------------------------------------------
